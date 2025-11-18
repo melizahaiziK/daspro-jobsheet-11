@@ -25,8 +25,12 @@ public class BioskopWithScanner12 {
                     System.out.print("Masukkan kolom (1-2): ");
                     int kolom = sc.nextInt();
                     sc.nextLine();
-
-                    if (nama.equals(penonton[baris-1][kolom-1] = nama)) {
+                    
+                    if (penonton[baris-1][kolom-1] != null) {
+                        System.out.println("Mohon maaf baris/kolom yang anda pilih sudah tidak tersedia");
+                        System.out.println("Silahkan isi kembali data");
+                    } else {
+                        penonton[baris-1][kolom-1] = nama;
                         System.out.println("Data penonton berhasil disimpan.");
                     }
                     break;
@@ -40,7 +44,7 @@ public class BioskopWithScanner12 {
                         }
                     }
                     break;
-                    
+
                 case 3: 
                     System.out.println("Terima kasih!");
                     return;
