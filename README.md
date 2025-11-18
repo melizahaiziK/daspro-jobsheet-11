@@ -72,3 +72,22 @@ jawaban : kolom maksimalnya adalah 1
 
 13. Apa fungsi dari String.join()?
 jawaban : metode yang digunakan untuk menggabungkan beberapa string menjadi satu.  
+
+PERTANYAAN PERCOBAAN 2
+1. Apakah pengisian elemen array dari scanner harus dilakukan secara berurutan mulai dari indeks ke-0? Jelaskan!
+jawaban :Tidak, pengisian elemen array dari Scanner tidak harus dilakukan secara berurutan mulai dari indeks ke-0. Kita bisa mengacak indeks selama memberikan nilai indeks baris dan kolom yang valid
+
+2. Modifikasi kode program untuk memberikan opsi menu sebagai berikut:
+- Menu 1: Input data penonton
+- Menu 2: Tampilkan daftar penonton
+- Menu 3: Exit
+jawaban : program mengeluarkan output menampilkan pilihan menu bioskop
+
+3. Modifikasi kode program untuk menghandle apabila nomor baris/kolom kursi yang tidak tersedia
+jawaban : saya menambahkan kode program yang hasil outputnya menjelaskan kalau barid/kolom kursi yang dipilih tidak tersedia
+
+4. Pada menu 1, modifikasi kode program untuk memberikan warning apabila kursi yang dipilih sudah terisi oleh penonton lainnya lalu munculkan perintah untuk memasukkan baris dan kolom kembali
+jawaban : sudah saya modif sesuai dengaan perintah 
+
+5. Pada menu 2, jika kursi kosong, ganti null dengan *** 
+jawaban : sudah saya modif sesuai dngan perintah
