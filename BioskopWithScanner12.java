@@ -27,8 +27,8 @@ public class BioskopWithScanner12 {
                     sc.nextLine();
                     
                     if (penonton[baris-1][kolom-1] != null) {
-                        System.out.println("Mohon maaf baris/kolom yang anda pilih sudah tidak tersedia");
-                        System.out.println("Silahkan isi kembali data");
+                        System.out.println("Kursi sudah terisi oleh " + penonton[baris-1][kolom-1]);
+                        System.out.println("Silahkan isi data kembali dan pilih baris/kolom yang lain");
                     } else {
                         penonton[baris-1][kolom-1] = nama;
                         System.out.println("Data penonton berhasil disimpan.");
