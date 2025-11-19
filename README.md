@@ -91,3 +91,34 @@ jawaban : sudah saya modif sesuai dengaan perintah
 
 5. Pada menu 2, jika kursi kosong, ganti null dengan *** 
 jawaban : sudah saya modif sesuai dngan perintah
+
+
+PERTANYAAN PERCOBAAN 3
+1. Tambahkan kode program sebagai berikut 
+        for (int i = 0; i < myNumbers.length; i++) {
+            System.out.println(Arrays.toString(myNumbers[i]));
+        }
+jawaban : sudah ditambahkan kode program dan hasil output nya adalah seperti berikut 
+[0, 0, 0, 0, 0]
+[0, 0, 0]
+[0]    
+
+2. Apa fungsi dari Arrays.toString()?
+jawaban :berfungsi untuk mengubah isi array menjadi sebuah String yang mudah dibaca.
+
+3. Apa nilai default untuk elemen pada array dengan tipe data int?
+jawaban : untuk nilai defaultnya adalah 0, seperti contoh 
+int [][] myNumbers = new int [3][];
+
+4. Tambahkan kode program berikut
+        for (int i = 0; i < myNumbers.length; i++) {
+            System.out.println("Panjang baris ke-" + (i+1) + ": " + myNumbers[i].length);
+        }
+jawaban : sudah ditambahkan kode program dan hasil output nya adalah seperti berikut 
+Panjang baris ke-1: 5
+Panjang baris ke-2: 3
+Panjang baris ke-3: 1
+
+5. Array myNumbers memiliki length berbeda untuk setiap barisnya. Apakah panjang array dapat dimodifikasi setelah diinstansiasi?
+jawaban : Tidak, panjang array di Java tidak dapat diubah setelah array tersebut dibuat (diinstansiasi). Contohnya seperti ini 
+myNumbers[0] = new int[5]; jika kita ingin mengubah panjang array mungkin bisa dirubah juga array nya dahulu, baru bisa ngubah panjang array nya 
