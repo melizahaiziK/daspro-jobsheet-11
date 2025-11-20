@@ -122,3 +122,7 @@ Panjang baris ke-3: 1
 5. Array myNumbers memiliki length berbeda untuk setiap barisnya. Apakah panjang array dapat dimodifikasi setelah diinstansiasi?
 jawaban : Tidak, panjang array di Java tidak dapat diubah setelah array tersebut dibuat (diinstansiasi). Contohnya seperti ini 
 myNumbers[0] = new int[5]; jika kita ingin mengubah panjang array mungkin bisa dirubah juga array nya dahulu, baru bisa ngubah panjang array nya 
+
+PERTANYAAN PERCOBAAN 4
+1. Bagaimana jika terdapat perubahan jumlah siswa dan jumlah mata kuliah? Modifikasi kode program SIAKAD untuk mengakomodasi jumlah siswa dan jumlah mata kuliah yang dinamis.
+jawaban : saya menambahkan kode program yang hasil output nya program akan meminta memasukkan jumlah mahasiswa dan jumah matkulnya, dan saya hanya mengganti array nya menjadi [jmlMahasiwa][jmlMatkul] dan juga bagian lainnya yang memang harus menyesuaikan dengan array yang dituliskan.
